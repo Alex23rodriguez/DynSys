@@ -1,4 +1,4 @@
-let MODEL = 1;
+let MODEL = 0;
 
 var [w, h] = [600, 600];
 var t = 0;

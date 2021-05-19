@@ -2,11 +2,11 @@
 
 let myDiv = document.getElementById("variables");
 
-myDiv.appendChild(makeSliderController("a", "A_slider", 0, 5, 0.01, 0.5));
-myDiv.appendChild(makeSliderController("b", "B_slider", 0, 5, 0.01, 2));
-myDiv.appendChild(makeSliderController("r", "C_slider", 0, 5, 0.01, 3));
-myDiv.appendChild(makeSliderController("d", "D_slider", 0, 5, 0.01, 0.5));
-myDiv.appendChild(makeSliderController("p", "E_slider", 0, 5, 0.01, 1));
+myDiv.appendChild(makeSliderController("A", "A_slider", 0, 5, 0.01, 1));
+myDiv.appendChild(makeSliderController("B", "B_slider", 0, 5, 0.01, 1));
+myDiv.appendChild(makeSliderController("C", "C_slider", 0, 5, 0.01, 0.5));
+myDiv.appendChild(makeSliderController("D", "D_slider", 0, 5, 0.01, 1));
+// myDiv.appendChild(makeSliderController("p", "E_slider", 0, 5, 0.01, 1));
 /*
 myDiv.appendChild(
   makeSliderController("left edge", "leftEdge_slider", -1, 0, 0.1, -0.5)
