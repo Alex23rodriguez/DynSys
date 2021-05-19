@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fancy.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/nerdamer@latest/nerdamer.core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nerdamer@latest/Algebra.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nerdamer@latest/Calculus.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nerdamer@latest/Solve.js"></script>
+  </head>
+  <body>
+    <div style="display: flex">
+      <div id="left-side">
+        <div id="canvas" onmousemove="updateCoords()"></div>
+        <div id="time">t:</div>
+        <div id="coords">
+          <p>x: 0</p>
+          <p>y: 0</p>
+        </div>
+      </div>
+      <!-- <div style="margin: 0px; padding: 0px"> -->
+      <div id="variables" style="flex: 30%; margin: 0px 20px">
+        <p><b>Modelo Cuadrático</b></p>
+        <input id="xprime" placeholder="-y + x" />
+        <input id="yprime" placeholder="x + 100" />
+        <button id="update-btn">Update</button>
+        <!-- x_prime
+        <input placeholder="-y + x" />
+        y_prime
+        <input placeholder="x + 100" />
+        alpha
+        <input type="range" id="alpha-range" max="5" step="0.1" />
+        beta
+        <input type="range" id="beta-range" max="5" step="0.1" />
+        delta
+        <input type="range" id="delta-range" max="5" step="0.1" />
+        gamma
+        <input type="range" id="gamma-range" max="5" step="0.1" /> -->
+      </div>
+      <!-- </div> -->
+    </div>
+
+    <script src="particle.js"></script>
+    <script src="models.js"></script>
+    <script src="canvas_drawer.js"></script>
+    <script src="index.js"></script>
+    <script src="var_manager.js"></script>
+    <script src="graph.js"></script>
+    <script src="last.js"></script>
+  </body>
+</html>

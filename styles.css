@@ -1,0 +1,27 @@
+.slider-textinput {
+  width: 30px;
+  padding: 1px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.margin-left {
+  margin-right: 20px;
+}
+
+.var-container {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.var-name {
+  width: 90px;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
